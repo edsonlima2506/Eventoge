@@ -71,3 +71,17 @@ body {
 .headerImage {
   width: 40%;
 }
+
+form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.inputForm {
+  height: 50px;
+  width: 200px;
+  margin: 20px;
+}
