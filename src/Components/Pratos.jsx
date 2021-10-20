@@ -7,6 +7,7 @@ class Pratos extends React.Component {
                 <section className="sectionPratos">
                     <img src={ image } alt="" />
                     <h1>{ name }</h1>
+                    <button type="button">Adicionar</button>
                 </section>
         )
     }

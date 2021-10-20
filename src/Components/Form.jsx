@@ -12,7 +12,7 @@ class Form extends React.Component {
                     <option value="Masculino">Masculino</option>
                     <option value="Feminino">Feminino</option>
                 </select>
-                <button className="buttonPlay" type="button">Começar</button>
+                <button className="buttonPlay" type="button">Enviar</button>
             </form>
         )
     }
