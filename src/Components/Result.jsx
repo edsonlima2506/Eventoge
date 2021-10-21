@@ -13,44 +13,44 @@ class Result extends React.Component {
                 (inputIdade >= 18
                 && inputIdade < 30
                 && totalCalorias > (14.7 * inputPeso + 496)
-                && sexo === 'Feminino') && <div><h2>Status: acima do ideal</h2><h2>Quantidade ideal: { (14.7 * inputPeso + 496) }Cal</h2></div>  }
+                && sexo === 'Feminino') && <div><h2>Status: acima do ideal</h2><h2>Quantidade ideal: { (14.7 * inputPeso + 496).toFixed(0) }Cal</h2></div>  }
                 {
                 (inputIdade >= 18
                 && inputIdade < 30
                 && totalCalorias < (14.7 * inputPeso + 496)
-                && sexo === 'Feminino') && <div><h2>Status: abaixo do ideal</h2><h2>Quantidade ideal: { (14.7 * inputPeso + 496) }Cal</h2></div> }
+                && sexo === 'Feminino') && <div><h2>Status: abaixo do ideal</h2><h2>Quantidade ideal: { (14.7 * inputPeso + 496).toFixed(0) }Cal</h2></div> }
                 {
                 (inputIdade >= 30
                 && inputIdade < 66
                 && totalCalorias > (8.7 * inputPeso + 829)
-                && sexo === 'Feminino') && <div><h2>Status: acima do ideal</h2><h2>Quantidade ideal: { (8.7 * inputPeso + 829) }Cal</h2></div> }
+                && sexo === 'Feminino') && <div><h2>Status: acima do ideal</h2><h2>Quantidade ideal: { (8.7 * inputPeso + 829).toFixed(0) }Cal</h2></div> }
                 {
                 (inputIdade >= 30
                 && inputIdade < 66
                 && totalCalorias < (8.7 * inputPeso + 829)
-                && sexo === 'Feminino') && <div><h2>Status: abaixo do ideal</h2><h2>Quantidade ideal: { (8.7 * inputPeso + 829) }Cal</h2></div> }
+                && sexo === 'Feminino') && <div><h2>Status: abaixo do ideal</h2><h2>Quantidade ideal: { (8.7 * inputPeso + 829).toFixed(0) }Cal</h2></div> }
                 
 
                 {
                 (inputIdade >= 18
                 && inputIdade < 30
                 && totalCalorias > (15.3 * inputPeso + 679)
-                && sexo === 'Masculino') && <div><h2>Status: acima do ideal</h2><h2>Quantidade ideal: { (15.3 * inputPeso + 679) }Cal</h2></div> }
+                && sexo === 'Masculino') && <div><h2>Status: acima do ideal</h2><h2>Quantidade ideal: { (15.3 * inputPeso + 679).toFixed(0) }Cal</h2></div> }
                 {
                 (inputIdade >= 18
                 && inputIdade < 30
                 && totalCalorias < (15.3 * inputPeso + 679)
-                && sexo === 'Masculino') && <div><h2>Status: abaixo do ideal</h2><h2>Quantidade ideal: { (15.3 * inputPeso + 679) }Cal</h2></div> }
+                && sexo === 'Masculino') && <div><h2>Status: abaixo do ideal</h2><h2>Quantidade ideal: { (15.3 * inputPeso + 679).toFixed(0) }Cal</h2></div> }
                 {
                 (inputIdade >= 30
                 && inputIdade < 66
                 && totalCalorias > (8.7 * inputPeso + 879)
-                && sexo === 'Masculino') && <div><h2>Status: acima do ideal</h2><h2>Quantidade ideal: { (8.7 * inputPeso + 879) }Cal</h2></div> }
+                && sexo === 'Masculino') && <div><h2>Status: acima do ideal</h2><h2>Quantidade ideal: { (8.7 * inputPeso + 879).toFixed(0) }Cal</h2></div> }
                 {
                 (inputIdade >= 30
                 && inputIdade < 66
                 && totalCalorias < (8.7 * inputPeso + 879)
-                && sexo === 'Masculino') && <div><h2>Status: abaixo do ideal</h2> <h2>Quantidade ideal: { (8.7 * inputPeso + 879) }Cal</h2></div> }
+                && sexo === 'Masculino') && <div><h2>Status: abaixo do ideal</h2> <h2>Quantidade ideal: { (8.7 * inputPeso + 879).toFixed(0) }Cal</h2></div> }
                 <button className="buttonForm" onClick={ clearInputs }>Enviar</button>
             </section>
         )
