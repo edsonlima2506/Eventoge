@@ -2,17 +2,17 @@ import React from 'react';
 
 class Form extends React.Component {
     render() {
+        const { handleChange } = this.props;
         return (
             <form>
-                <input type="text" placeholder="Seu nome" className="inputForm"/>
-                <input type="text" placeholder="Sua idade" className="inputForm"/>
-                <input type="text" placeholder="Seu SSO" className="inputForm"/>
-                <input type="text" placeholder="Seu Peso" className="inputForm"/>
-                <select name="" id="" className="inputForm">
+                <input onChange={ handleChange } type="text" placeholder="Seu nome" className="inputForm" name="inputNome"/>
+                <input onChange={ handleChange } type="text" placeholder="Sua idade" className="inputForm" name="inputIdade"/>
+                <input onChange={ handleChange } type="text" placeholder="Seu SSO" className="inputForm" name="inputSso"/>
+                <input onChange={ handleChange } type="text" placeholder="Seu Peso" className="inputForm" name="inputPeso"/>
+                <select onChange={ handleChange } name="sexo" id="" className="inputForm">
                     <option value="Masculino">Masculino</option>
                     <option value="Feminino">Feminino</option>
                 </select>
-                <button className="buttonForm" type="button">Enviar</button>
             </form>
         )
     }
