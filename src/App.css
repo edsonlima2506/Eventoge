@@ -171,3 +171,13 @@ form {
 .totalCalorias {
   margin-top: 50px;
 }
+
+.listaDeFuncionarios {
+  display: flex;
+  color: #FF725E;
+  background-color: #fff;
+}
+
+.listaDeFuncionarios h2 {
+  margin: 20px;
+}

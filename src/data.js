@@ -160,4 +160,7 @@ const pratosInfos = [
     }
 ];
 
+const funcionarios = []
+
 export default pratosInfos;
+export { funcionarios };
