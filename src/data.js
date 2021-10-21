@@ -65,10 +65,6 @@ const pratosInfos = [
         calorias: 115,
     },
     {
-        imagem: 'https://images.pexels.com/photos/618775/pexels-photo-618775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-        nome: 'Carnes'
-    },
-    {
         imagem: 'https://images.pexels.com/photos/722223/pexels-photo-722223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
         nome: 'Ovo frito - 1Un',
         calorias: 108
@@ -157,6 +153,81 @@ const pratosInfos = [
         imagem: 'https://images.pexels.com/photos/4022093/pexels-photo-4022093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
         nome: 'Tomate - 100g',
         calorias: 20,
+    },
+    {
+        imagem: 'https://opresenterural.com.br/wp-content/uploads/2021/06/ABRALEITE-Leite.jpg',
+        nome: 'Leite integral - 100ml',
+        calorias: 62,
+    },
+    {
+        imagem: 'http://www.aintec.com.br/wp-content/uploads/2017/06/Leite.jpg',
+        nome: 'Leite desnatado - 100ml',
+        calorias: 35,
+    },
+    {
+        imagem: 'https://uploads.metropoles.com/wp-content/uploads/2019/02/28172451/queijo-.jpg',
+        nome: 'Queijo light branco - fatia',
+        calorias: 66,
+    },
+    {
+        imagem: 'https://www.alimentosonline.com.br/fotos_artigos/6253/mussarela.jpg',
+        nome: 'Queijo mussarela - fatia',
+        calorias: 86,
+    },
+    {
+        imagem: 'https://cdn.awsli.com.br/600x450/1191/1191667/produto/51294113/cc48299df7.jpg',
+        nome: 'Presunto - 2 fatias',
+        calorias: 91,
+    },
+    {
+        imagem: 'https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2021/01/06/receitas-com-maca.jpg',
+        nome: 'Maçã - 100g',
+        calorias: 63,
+    },
+    {
+        imagem: 'https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/mesas/2020/08/04db0ac8-banana.jpg',
+        nome: 'Banana - 100g',
+        calorias: 89,
+    },
+    {
+        imagem: 'https://www.frutasdocavado.com/wp-content/uploads/2019/05/uvas.jpg',
+        nome: 'Uvas - 100g',
+        calorias: 69,
+    },
+    {
+        imagem: 'https://s2.glbimg.com/-V4nFrbjz9JMuWJnvQxl2NEplg8=/0x0:1280x922/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/U/q/B5doHYQcKDxm0YsOynPA/pao-frances.jpeg',
+        nome: 'Pão - 50g',
+        calorias: 150,
+    },
+    {
+        imagem: 'https://conteudo.imguol.com.br/blogs/171/files/2019/10/manteiga-1024x683.jpg',
+        nome: 'Manteiga - 1 colher de sopa',
+        calorias: 102,
+    },
+    {
+        imagem: 'https://www.movenoticias.com/wp-content/uploads/2016/07/e-saudavel-comer-margarina.jpg',
+        nome: 'Margarina - 1 colher de sopa',
+        calorias: 75,
+    },
+    {
+        imagem: 'https://cdn.awsli.com.br/600x450/440/440548/produto/28421906/cd29d27875.jpg',
+        nome: 'Castanha - 100g',
+        calorias: 656,
+    },
+    {
+        imagem: 'https://www.sabornamesa.com.br/media/k2/items/cache/8e6a8be31a229b213cafae60019138de_L.jpg',
+        nome: 'Pão integral - fatia',
+        calorias: 68,
+    },
+    {
+        imagem: 'https://esbrasil.com.br/wp-content/uploads/2016/02/cafe_800.jpg',
+        nome: 'Xícara de café',
+        calorias: 2,
+    },
+    {
+        imagem: 'https://www.receiteria.com.br/wp-content/uploads/receitas-de-suco-de-laranja.jpg',
+        nome: 'Suco de laranja - 100ml',
+        calorias: 47
     }
 ];
 
